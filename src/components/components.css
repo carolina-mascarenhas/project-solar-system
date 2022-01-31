@@ -1,0 +1,15 @@
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+
+  /* height: 100px; */
+}
