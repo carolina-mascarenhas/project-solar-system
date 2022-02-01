@@ -1,15 +1,48 @@
-h1, h2 {
+.title {
+  font-size: 30px;
+  padding-top: 30px;
   text-align: center;
 }
 
-p {
-  font-size: 30px;
+.subtitle {
+  border: solid white 3px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 30px auto 50px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
 }
 
 .planet-card {
   align-items: center;
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
+}
 
-  /* height: 100px; */
+.solar-system {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.image {
+  width: 160px;
+}
+
+.mission-card {
+  align-items: center;
+  border: solid white 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.missions {
+  align-content: space-between;
+  display: flex;
+  flex-flow: wrap;
+  height: 250px;
+  justify-content: space-around;
 }
