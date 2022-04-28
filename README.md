@@ -16,7 +16,7 @@ Neste projeto, desenvolvi habilidades como:
 1. Clone o repositório
   * `git clone git@github.com:carolina-mascarenhas/project-solar-system.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-018-a-project-solar-system`
+    * `cd project-solar-system`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
